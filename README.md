@@ -1,0 +1,3 @@
+# Grandmaster
+
+Chesslite server
