@@ -3,7 +3,7 @@ organization := "com.pamulabs"
 
 version := "1.0-SNAPSHOT"
 
-lazy val playSocketIO = RootProject(uri("git://github.com/playframework/play-socket.io.git"))
+lazy val playSocketIO = RootProject(uri("git://github.com/pamu/play-socket.io.git"))
 
 lazy val root = (project in file(".")).dependsOn(playSocketIO).enablePlugins(PlayScala)
 
